@@ -32,7 +32,7 @@
                 android:contentDescription="@string/repository_owner_avatar"
                 tools:src="@drawable/default_avatar" />
 
-            <com.gh4a.widget.StyleableTextView
+            <com.decadroid.widget.StyleableTextView
                 android:id="@+id/tv_title"
                 style="@style/HeaderLabel"
                 android:layout_width="0dp"
@@ -42,7 +42,7 @@
                 android:paddingTop="8dp"
                 tools:text="owner/repository" />
 
-            <com.gh4a.widget.FixedSizeImageView
+            <com.decadroid.widget.FixedSizeImageView
                 android:id="@+id/iv_action"
                 android:layout_width="56dp"
                 android:layout_height="48dp"

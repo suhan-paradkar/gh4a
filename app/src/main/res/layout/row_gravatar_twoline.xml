@@ -9,7 +9,7 @@
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:padding="@dimen/content_padding">
 
-    <com.gh4a.widget.FixedSizeImageView
+    <com.decadroid.widget.FixedSizeImageView
         android:id="@+id/iv_gravatar"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -18,7 +18,7 @@
         android:background="?attr/selectableItemBackgroundBorderless"
         tools:src="@drawable/default_avatar" />
 
-    <com.gh4a.widget.StyleableTextView
+    <com.decadroid.widget.StyleableTextView
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
         app:ghFont="boldCondensed"
         tools:text="Username" />
 
-    <com.gh4a.widget.StyleableTextView
+    <com.decadroid.widget.StyleableTextView
         android:id="@+id/tv_extra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

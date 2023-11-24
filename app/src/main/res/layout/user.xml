@@ -31,7 +31,7 @@
                     android:paddingLeft="@dimen/content_padding"
                     android:paddingRight="@dimen/content_padding">
 
-                    <com.gh4a.widget.FixedSizeImageView
+                    <com.decadroid.widget.FixedSizeImageView
                         android:id="@+id/iv_gravatar"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
@@ -39,7 +39,7 @@
                         android:background="?attr/selectableItemBackgroundBorderless"
                         tools:src="@drawable/default_avatar" />
 
-                    <com.gh4a.widget.StyleableTextView
+                    <com.decadroid.widget.StyleableTextView
                         android:id="@+id/tv_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
                         android:textAppearance="@style/TextAppearance.HeaderTitle"
                         tools:text="Username" />
 
-                    <com.gh4a.widget.StyleableTextView
+                    <com.decadroid.widget.StyleableTextView
                         android:id="@+id/tv_email"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
                         app:needsLinkHandling="true"
                         tools:text='user@email.com' />
 
-                    <com.gh4a.widget.StyleableTextView
+                    <com.decadroid.widget.StyleableTextView
                         android:id="@+id/tv_website"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
                         app:needsLinkHandling="true"
                         tools:text="https://example.com" />
 
-                    <com.gh4a.widget.StyleableTextView
+                    <com.decadroid.widget.StyleableTextView
                         android:id="@+id/tv_company"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                         app:needsLinkHandling="true"
                         tools:text="Company name" />
 
-                    <com.gh4a.widget.StyleableTextView
+                    <com.decadroid.widget.StyleableTextView
                         android:id="@+id/tv_location"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
                         tools:text="Location" />
                 </RelativeLayout>
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_bio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -110,27 +110,27 @@
                     app:needsLinkHandling="true"
                     tools:text="Bio of the user" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/type_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:visibility="gone" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/join_date_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:rowIcon="@drawable/icon_calendar"
                     tools:rowText="Member since 09 February 2019" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/members_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:rowIcon="@drawable/icon_members"
                     tools:rowText="5 members" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/followers_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -139,21 +139,21 @@
                     app:rowIconActionHintOn="@string/user_unfollow_action"
                     tools:rowText="Followed by 82 users" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/following_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:rowIcon="@drawable/icon_following"
                     tools:rowText="Following 33 users" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/repos_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:rowIcon="@drawable/icon_repositories"
                     tools:rowText="39 repositories" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/gists_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
                 android:layout_marginBottom="@dimen/overview_header_spacing"
                 android:orientation="vertical">
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_pub_repos_label"
                     style="@style/HeaderLabel"
                     android:layout_width="match_parent"
@@ -191,7 +191,7 @@
                     android:orientation="vertical"
                     android:visibility="gone" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/btn_repos"
                     style="@style/MoreButton"
                     android:layout_width="match_parent"
@@ -217,7 +217,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_orgs"
                     style="@style/HeaderLabel"
                     android:layout_width="match_parent"

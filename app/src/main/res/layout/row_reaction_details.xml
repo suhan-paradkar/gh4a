@@ -6,12 +6,12 @@
     android:orientation="horizontal"
     android:padding="8dp">
 
-    <com.gh4a.widget.FixedSizeImageView
+    <com.decadroid.widget.FixedSizeImageView
         android:id="@+id/avatar"
         android:layout_width="18dp"
         android:layout_height="18dp" />
 
-    <com.gh4a.widget.StyleableTextView
+    <com.decadroid.widget.StyleableTextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

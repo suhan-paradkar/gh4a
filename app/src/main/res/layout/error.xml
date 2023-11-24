@@ -14,7 +14,7 @@
         android:layout_gravity="center_horizontal"
         android:src="@drawable/load_failed_bg" />
 
-    <com.gh4a.widget.StyleableTextView
+    <com.decadroid.widget.StyleableTextView
         android:id="@+id/error_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

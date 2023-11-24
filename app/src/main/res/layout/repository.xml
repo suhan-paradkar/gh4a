@@ -22,7 +22,7 @@
                 android:paddingTop="@dimen/content_padding"
                 android:paddingBottom="@dimen/content_padding">
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_repo_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
                     app:needsLinkHandling="true"
                     tools:text="Username/Repository" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_desc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
                     app:needsLinkHandling="true"
                     tools:text="Repository description" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_url"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="16dp" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/fork_parent_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -69,14 +69,14 @@
                     app:rowIcon="@drawable/icon_fork"
                     app:rowText="Forked from other/repository" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/private_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:rowIcon="@drawable/icon_private"
                     app:rowText="@string/repo_type_private" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/language_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -88,28 +88,28 @@
                     android:layout_width="match_parent"
                     android:layout_height="8dp" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/issues_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:rowIcon="@drawable/icon_issues"
                     tools:rowText="50 issues" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/pulls_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:rowIcon="@drawable/icon_pull_request"
                     tools:rowText="9 pull requests" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/forks_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:rowIcon="@drawable/icon_fork"
                     tools:rowText="12 forks" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/stars_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -118,7 +118,7 @@
                     app:rowIconActionHintOn="@string/repo_unstar_action"
                     tools:rowText="5 stars" />
 
-                <com.gh4a.widget.OverviewRow
+                <com.decadroid.widget.OverviewRow
                     android:id="@+id/watchers_row"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/readme_title"
                     style="@style/HeaderLabel"
                     android:layout_width="match_parent"
@@ -157,7 +157,7 @@
                     android:layout_marginBottom="@dimen/content_padding"
                     android:visibility="gone" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/readme"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -182,14 +182,14 @@
                 android:layout_marginBottom="@dimen/overview_header_spacing"
                 android:orientation="vertical">
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/other_info"
                     style="@style/HeaderLabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/other_info" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_contributors_label"
                     style="@style/SelectableLabel"
                     android:layout_width="match_parent"
@@ -198,7 +198,7 @@
                     android:paddingRight="@dimen/content_padding"
                     android:text="@string/repo_contributors" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_collaborators_label"
                     style="@style/SelectableLabel"
                     android:layout_width="match_parent"
@@ -207,7 +207,7 @@
                     android:paddingRight="@dimen/content_padding"
                     android:text="@string/repo_collaborators" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_wiki_label"
                     style="@style/SelectableLabel"
                     android:layout_width="match_parent"
@@ -216,7 +216,7 @@
                     android:paddingRight="@dimen/content_padding"
                     android:text="@string/recent_wiki" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_releases_label"
                     style="@style/SelectableLabel"
                     android:layout_width="match_parent"

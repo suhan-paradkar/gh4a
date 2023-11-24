@@ -39,7 +39,7 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
-            <com.gh4a.widget.StyleableTextView
+            <com.decadroid.widget.StyleableTextView
                 android:id="@+id/welcome_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
             android:orientation="vertical"
             android:visibility="gone">
 
-            <com.gh4a.widget.StyleableTextView
+            <com.decadroid.widget.StyleableTextView
                 android:id="@+id/login_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
