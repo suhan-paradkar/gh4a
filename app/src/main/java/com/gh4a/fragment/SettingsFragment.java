@@ -11,7 +11,6 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatDialog;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;

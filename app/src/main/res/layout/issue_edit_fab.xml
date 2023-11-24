@@ -5,8 +5,8 @@
     android:id="@+id/edit_fab"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginRight="16dp"
+    android:layout_marginEnd="16dp"
     android:src="@drawable/menu_edit"
     app:fabSize="mini"
     app:layout_anchor="@id/header"
-    app:layout_anchorGravity="right|bottom" />
+    app:layout_anchorGravity="end|bottom" />
