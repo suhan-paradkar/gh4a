@@ -27,6 +27,7 @@ import com.gh4a.fragment.SettingsFragment;
 import com.gh4a.utils.StringUtils;
 import com.gh4a.worker.NotificationsWorker;
 import com.google.android.material.color.DynamicColors;
+import com.meisolsson.githubsdk.BuildConfig;
 import com.meisolsson.githubsdk.model.User;
 import com.tspoon.traceur.Traceur;
 
