@@ -7,7 +7,7 @@
         android:id="@+id/editor_container"
         layout="@layout/editor_with_markdown_buttons" />
 
-    <com.gh4a.widget.MarkdownPreviewWebView
+    <com.decadroid.widget.MarkdownPreviewWebView
         android:id="@+id/preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -36,7 +36,7 @@
                 android:layout_marginRight="16dp"
                 android:src="@drawable/due_small" />
 
-            <com.gh4a.widget.StyleableTextView
+            <com.decadroid.widget.StyleableTextView
                 android:id="@+id/tv_due_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="?android:attr/textColorPrimary" />
 
-            <com.gh4a.widget.StyleableTextView
+            <com.decadroid.widget.StyleableTextView
                 android:id="@+id/tv_due"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

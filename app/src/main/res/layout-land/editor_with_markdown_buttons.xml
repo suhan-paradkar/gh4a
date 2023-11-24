@@ -14,7 +14,7 @@
         android:layout_weight="1"
         android:fillViewport="true">
 
-        <com.gh4a.widget.CommentEditor
+        <com.decadroid.widget.CommentEditor
             android:id="@+id/editor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
 
     </LinearLayout>
 
-    <com.gh4a.widget.MarkdownButtonsBar
+    <com.decadroid.widget.MarkdownButtonsBar
         android:id="@+id/markdown_buttons"
         android:layout_width="wrap_content"
         android:layout_height="match_parent" />

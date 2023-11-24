@@ -14,7 +14,7 @@
         android:paddingLeft="@dimen/content_padding"
         android:paddingRight="@dimen/content_padding">
 
-        <com.gh4a.widget.FixedSizeImageView
+        <com.decadroid.widget.FixedSizeImageView
             android:id="@+id/iv_gravatar"
             android:layout_width="40dp"
             android:layout_height="40dp"
@@ -22,7 +22,7 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             tools:src="@drawable/default_avatar" />
 
-        <com.gh4a.widget.StyleableTextView
+        <com.decadroid.widget.StyleableTextView
             android:id="@+id/tv_extra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
             android:textSize="16sp"
             tools:text="Username" />
 
-        <com.gh4a.widget.StyleableTextView
+        <com.decadroid.widget.StyleableTextView
             android:id="@+id/tv_timestamp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
 
     </RelativeLayout>
 
-    <com.gh4a.widget.StyleableTextView
+    <com.decadroid.widget.StyleableTextView
         android:id="@+id/tv_desc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
         app:needsLinkHandling="true"
         tools:text="Description of the issue." />
 
-    <com.gh4a.widget.PullRequestBranchInfoView
+    <com.decadroid.widget.PullRequestBranchInfoView
         android:id="@+id/branch_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
             android:layout_marginRight="10dp"
             android:src="@drawable/labels" />
 
-        <com.gh4a.widget.StyleableTextView
+        <com.decadroid.widget.StyleableTextView
             android:id="@+id/tv_labels_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="?android:attr/textColorPrimary" />
 
-        <com.gh4a.widget.StyleableTextView
+        <com.decadroid.widget.StyleableTextView
             android:id="@+id/labels"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
             android:layout_marginRight="10dp"
             android:src="@drawable/assignee" />
 
-        <com.gh4a.widget.StyleableTextView
+        <com.decadroid.widget.StyleableTextView
             android:id="@+id/tv_assignee_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -159,7 +159,7 @@
             android:layout_marginRight="10dp"
             android:src="@drawable/milestone" />
 
-        <com.gh4a.widget.StyleableTextView
+        <com.decadroid.widget.StyleableTextView
             android:id="@+id/tv_milestone_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -168,7 +168,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="?android:attr/textColorPrimary" />
 
-        <com.gh4a.widget.StyleableTextView
+        <com.decadroid.widget.StyleableTextView
             android:id="@+id/tv_milestone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -179,14 +179,14 @@
 
     </RelativeLayout>
 
-    <com.gh4a.widget.CommitStatusBox
+    <com.decadroid.widget.CommitStatusBox
         android:id="@+id/commit_status_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <com.gh4a.widget.StyleableTextView
+    <com.decadroid.widget.StyleableTextView
         android:id="@+id/tv_pull"
         style="@style/SelectableLabel"
         android:layout_width="wrap_content"
@@ -200,7 +200,7 @@
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <com.gh4a.widget.ReactionBar
+    <com.decadroid.widget.ReactionBar
         android:id="@+id/reactions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

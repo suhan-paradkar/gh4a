@@ -1,0 +1,32 @@
+package com.decadroid.activities.home;
+
+import androidx.annotation.StringRes;
+import androidx.fragment.app.Fragment;
+
+import com.decadroid.R;
+import com.decadroid.fragment.PublicTimelineFragment;
+
+public class TimelineFactory extends FragmentFactory {
+    private static final int[] TAB_TITLES = new int[] {
+        R.string.pub_timeline
+    };
+
+    public TimelineFactory(HomeActivity activity) {
+        super(activity);
+    }
+
+    @Override
+    protected @StringRes int getTitleResId() {
+        return R.string.pub_timeline;
+    }
+
+    @Override
+    protected int[] getTabTitleResIds() {
+        return TAB_TITLES;
+    }
+
+    @Override
+    protected Fragment makeFragment(int position) {
+        return PublicTimelineFragment.newInstance();
+    }
+}

@@ -2,7 +2,7 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.gh4a.widget.IntegerListPreference
+    <com.decadroid.widget.IntegerListPreference
         app:iconSpaceReserved="false"
         android:defaultValue="@integer/default_theme"
         android:entries="@array/theme_items"
@@ -20,7 +20,7 @@
         android:summary="%s"
         android:title="@string/start_page" />
 
-    <com.gh4a.widget.IntegerListPreference
+    <com.decadroid.widget.IntegerListPreference
         app:iconSpaceReserved="false"
         android:defaultValue="2"
         android:entries="@array/text_size_items"
@@ -29,7 +29,7 @@
         android:summary="%s"
         android:title="@string/menu_text_size" />
 
-    <com.gh4a.widget.IntegerListPreference
+    <com.decadroid.widget.IntegerListPreference
         app:iconSpaceReserved="false"
         android:defaultValue="1"
         android:entries="@array/load_gif_mode_items"
@@ -52,7 +52,7 @@
         android:key="notifications"
         android:title="@string/notifications" />
 
-    <com.gh4a.widget.IntegerListPreference
+    <com.decadroid.widget.IntegerListPreference
         app:iconSpaceReserved="false"
         android:defaultValue="15"
         android:dependency="notifications"

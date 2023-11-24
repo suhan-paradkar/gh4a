@@ -7,7 +7,7 @@
         android:id="@+id/editor_container"
         layout="@layout/editor_with_markdown_buttons" />
 
-    <com.gh4a.widget.MarkdownPreviewWebView
+    <com.decadroid.widget.MarkdownPreviewWebView
         android:id="@+id/preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -41,7 +41,7 @@
                     android:layout_marginRight="16dp"
                     android:src="@drawable/labels" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_labels_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="?android:attr/textColorPrimary" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_labels"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
                     android:layout_marginRight="16dp"
                     android:src="@drawable/assignee" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_assignee_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
                     android:layout_marginRight="16dp"
                     android:src="@drawable/milestone" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_milestone_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="?android:attr/textColorPrimary" />
 
-                <com.gh4a.widget.StyleableTextView
+                <com.decadroid.widget.StyleableTextView
                     android:id="@+id/tv_milestone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:background="?selectableItemBackground">
 
-            <com.gh4a.widget.FixedSizeImageView
+            <com.decadroid.widget.FixedSizeImageView
                 android:id="@+id/iv_icon"
                 android:layout_width="56dp"
                 android:layout_height="24dp"
@@ -26,7 +26,7 @@
                 android:paddingRight="@dimen/content_padding"
                 android:src="@drawable/icon_issues" />
 
-            <com.gh4a.widget.FixedSizeImageView
+            <com.decadroid.widget.FixedSizeImageView
                 android:id="@+id/iv_action"
                 android:layout_width="56dp"
                 android:layout_height="56dp"
@@ -41,7 +41,7 @@
                 tools:layout_alignParentBottom="false"
                 tools:layout_alignParentTop="false" />
 
-            <com.gh4a.widget.StyleableTextView
+            <com.decadroid.widget.StyleableTextView
                 android:id="@+id/tv_timestamp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
                 android:textAppearance="@style/TextAppearance.VerySmall"
                 tools:text="yesterday" />
 
-            <com.gh4a.widget.StyleableTextView
+            <com.decadroid.widget.StyleableTextView
                 android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

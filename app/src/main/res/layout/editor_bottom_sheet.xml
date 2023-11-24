@@ -37,7 +37,7 @@
             android:layout_gravity="center"
             style="@style/ImageButton" />
 
-        <com.gh4a.widget.HeightLimitedNestedScrollView
+        <com.decadroid.widget.HeightLimitedNestedScrollView
             android:id="@+id/basic_editor_scroll"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
                 android:layout_gravity="center"
                 style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
 
-                <com.gh4a.widget.CommentEditor
+                <com.decadroid.widget.CommentEditor
                     android:id="@+id/et_basic_editor"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
-        </com.gh4a.widget.HeightLimitedNestedScrollView>
+        </com.decadroid.widget.HeightLimitedNestedScrollView>
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"

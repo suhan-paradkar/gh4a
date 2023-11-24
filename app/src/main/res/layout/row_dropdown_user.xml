@@ -10,7 +10,7 @@
     android:paddingTop="8dp"
     android:paddingBottom="8dp">
 
-    <com.gh4a.widget.FixedSizeImageView
+    <com.decadroid.widget.FixedSizeImageView
         android:id="@+id/iv_user"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -18,7 +18,7 @@
         android:layout_marginRight="16dp"
         tools:src="@drawable/default_avatar" />
 
-    <com.gh4a.widget.StyleableTextView
+    <com.decadroid.widget.StyleableTextView
         android:id="@+id/tv_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

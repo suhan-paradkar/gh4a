@@ -10,7 +10,7 @@
     android:padding="@dimen/breadcrumb_padding_side"
     tools:background="?colorPrimary">
 
-    <com.gh4a.widget.StyleableTextView
+    <com.decadroid.widget.StyleableTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
